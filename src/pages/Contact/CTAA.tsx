@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Plane } from "lucide-react";
-import { Button } from "@/components/UI/button";
+import { Button } from "@/components/UI/Button";
 import { Link } from 'react-router-dom';
 
 const CTA = () => {

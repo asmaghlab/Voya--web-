@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Star, ChevronLeft, ChevronRight, Quote } from "lucide-react";
-import { Button } from "@/components/UI/button";
+import { Button } from "@/components/UI/Button";
 
 export const TestimonialsSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

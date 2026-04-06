@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { Star, Bed, ArrowRight, Heart } from "lucide-react";
-import { Button } from "@/components/UI/button";
+import { Button } from "@/components/UI/Button";
 import { Badge } from "@/components/UI/badge";
 import { useAppSelector, useAppDispatch } from "@/routes/hooks";
 import { useNavigate } from "react-router-dom";

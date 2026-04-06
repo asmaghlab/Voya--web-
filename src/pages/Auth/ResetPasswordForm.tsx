@@ -3,7 +3,7 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import { useDispatch, useSelector } from "react-redux";
 import { resetPassword, clearResetData } from "@/features/auth/authSlice";
-import { Input } from "../../components/UI/input";
+import { Input } from "../../components/UI/Input";
 import { AppDispatch, RootState } from "@/routes/store";
 import { toast } from "@/components/UI/sonner";
 import { Eye, EyeOff, Lock } from "lucide-react";

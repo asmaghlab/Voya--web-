@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Mail, Send } from "lucide-react";
-import { Button } from "@/components/UI/button";
-import { Input } from "@/components/UI/input";
+import { Button } from "@/components/UI/Button";
+import { Input } from "@/components/UI/Input";
 import { useToast } from "@/components/UI/use-toast2";
 import emailjs from "emailjs-com";
 

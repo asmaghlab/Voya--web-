@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Plane, Clock, Users, Tag, Heart } from "lucide-react";
 import { Card, CardContent } from "@/components/UI/Card";
 import { Badge } from "@/components/UI/badge";
-import { Button } from "@/components/UI/button";
+import { Button } from "@/components/UI/Button";
 import { Flight } from "@/types/travel";
 import { useNavigate } from "react-router-dom";
 import { useAppDispatch, useAppSelector } from "@/routes/hooks";

@@ -1,5 +1,5 @@
 // import { Star, Clock, ArrowRight } from "lucide-react";
-// import { Button } from "@/components/UI/button";
+// import { Button } from "@/components/UI/Button";
 // import { Badge } from "@/components/UI/badge";
 // import { useAppSelector } from "@/routes/hooks";
 

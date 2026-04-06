@@ -17,7 +17,7 @@ import {
   Hotel as HotelIcon,
 } from "lucide-react";
 
-import { Button } from "@/components/UI/button";
+import { Button } from "@/components/UI/Button";
 import { Card, CardContent } from "@/components/UI/Card";
 import { Badge } from "@/components/UI/badge";
 import { useToast } from "@/components/UI/use-toast2";

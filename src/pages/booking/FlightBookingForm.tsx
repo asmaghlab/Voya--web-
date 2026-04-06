@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 
 import { createPortal } from "react-dom";
 import { showErrorAlert, showSuccessAlert } from "@/components/Common/CustomSwal";
-import { Input } from "@/components/UI/input";
+import { Input } from "@/components/UI/Input";
 import { Mail, Phone, User, Users } from "lucide-react";
 
 /* Validation */

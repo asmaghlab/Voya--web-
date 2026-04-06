@@ -14,8 +14,8 @@ import heroImage from "@/assets/travel.jpeg";
 import TravelistaLogo from "@/assets/voya.png";
 import { PlaneTrail } from "@/components/decorations/PlaneTrail";
 import { Landmarks } from "@/components/decorations/Landmarks";
-import { Input } from "../../components/UI/input";
-import { Button } from "../../components/UI/button";
+import { Input } from "../../components/UI/Input";
+import { Button } from "../../components/UI/Button";
 
 import { useAppDispatch, useAppSelector } from "@/routes/hooks";
 import { registerUser } from "../../features/auth/authSlice";

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Search, MapPin, Calendar, Plane } from "lucide-react";
-import { Button } from "@/components/UI/button";
-import { Input } from "@/components/UI/input";
+import { Button } from "@/components/UI/Button";
+import { Input } from "@/components/UI/Input";
 import {
   Select,
   SelectContent,

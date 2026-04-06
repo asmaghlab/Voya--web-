@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { FiMapPin } from "react-icons/fi";
 import { FaPlane } from "react-icons/fa";
-import { Input } from "@/components/UI/input";
+import { Input } from "@/components/UI/Input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/UI/select";
 
 interface CustomFlightsSearchProps {

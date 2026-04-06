@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { ArrowRight, Hotel, Plane } from "lucide-react";
-import { Button } from "@/components/UI/button";
+import { Button } from "@/components/UI/Button";
 import { useAppSelector, useAppDispatch } from "@/routes/hooks";
 import { fetchDestinations } from "@/features/homeslices/destinationsSlice";
 import { useNavigate } from "react-router-dom";

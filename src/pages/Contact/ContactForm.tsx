@@ -5,8 +5,8 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { toast } from "sonner";
 import { Send, Loader2, Mail, Phone } from "lucide-react";
-import { Button } from "@/components/UI/button";
-import { Input } from "../../components/UI/input";
+import { Button } from "@/components/UI/Button";
+import { Input } from "../../components/UI/Input";
 
 const contactSchema = z.object({
   name: z.string().min(1, "Name is required").min(2, "Name must be at least 2 characters").max(100),
