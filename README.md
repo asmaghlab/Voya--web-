@@ -1,73 +1,111 @@
-# React + TypeScript + Vite
+# VOYA – Web Application ✈️🌍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
 
-Currently, two official plugins are available:
+**VOYA Web** is a modern travel booking web application that allows users to explore trips and flights, search by destination and date, book journeys, and manage their bookings through a clean and intuitive user interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project focuses on performance, scalability, and an excellent user experience.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎯 Project Goals
 
-## Expanding the ESLint configuration
+* Simplify the process of searching for trips
+* Support different trip types (One Way / Round Trip / Multi-City)
+* Provide a smooth booking experience
+* Allow users to manage their bookings easily
+* Follow Front-End best practices
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠️ Technologies Used
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+* **React.js**
+* **TypeScript**
+* **Vite**
+* **Tailwind CSS**
+* **Framer Motion**
+* **Axios / Fetch API**
+* **React Router DOM**
+* **Vercel** (Deployment)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## ✨ Features
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 🌍 General
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+* Countries and destinations management
+* Interactive travel roadmap
+* AI-powered travel assistance and recommendations
+* Points & rewards system (Gain Points)
+
+### ✈️ Flights
+
+* Search flights by destination, date, and trip type
+* One Way / Round Trip / Multi-City trips
+* Flight details view
+* Flight booking flow
+
+### 🏨 Hotels
+
+* Browse hotels by country and city
+* Hotel details page
+* Hotel booking system
+
+### 👤 User Features
+
+* User authentication (Login / Register / Logout)
+* User profile management
+* View and manage bookings (Flights & Hotels)
+* Points tracking and rewards
+
+### 🛠️ Admin Dashboard
+
+* Admin authentication
+* Dashboard analytics & reports
+* Manage users
+* Manage flights
+* Manage hotels
+* Manage destinations (Countries)
+* Messages management
+
+### 📊 Reports
+
+* Booking reports
+* Users activity reports
+* Flights & Hotels performance reports
+
+### ⚡ Performance & UX
+
+* Optimized rendering and state management
+* Smooth animations and transitions
+
+
+## 🌐 Deployment
+
+The project is deployed using **Vercel**.
+
+---
+
+## 👥 VOYA Team (Web)
+
+* **Team Leader**:  Toka osama elqersh
+* **Front-End Developer**: Eman Ahmed Zyada Elsherbiny
+* **Front-End Developer**:  Abdelrhman Ibrahim Kamal
+* **Front-End Developer**:  Ahmed Aziz Fahmy Mohamed
+* **Front-End Developer**: Khairy Abdelwahab Naiem
+* **Front-End Developer**: Asmaa Adel Ghalab
+
+---
+
+
+## 📌 Notes
+
+* Web and Mobile versions share the same business logic concept
+* Currently using mock data / test APIs
+* Ready for backend integration
+
+---
+
+> Developed with passion by the **VOYA Team**
